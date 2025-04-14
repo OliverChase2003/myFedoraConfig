@@ -7,7 +7,7 @@ sudo dnf install -y \
 
 ## add vscode source
 sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
-echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\nautorefresh=1\ntype=rpm-md\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" | sudo tee /etc/yum.repos.d/vscode.repo > /dev/null
+echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\nautorefresh=1\ntype=rpm-md\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" | sudo tee /etc/yum.repos.d/vscode.repo >/dev/null
 
 echo "添加copr"
 dnf copr enable lihaohong/yazi
@@ -18,14 +18,14 @@ sudo dnf update -y
 
 echo "安装命令行工具"
 sudo dnf install -y \
-	fish \
-	zsh \
-	git \
-	neovim \
-	yazi \
-	fzf \
-	fd \
-	bat
+  fish \
+  zsh \
+  git \
+  neovim \
+  yazi \
+  fzf \
+  fd \
+  bat
 
 echo "配置命令行工具"
 ## neovim
@@ -35,14 +35,14 @@ git clone https://github.com/LazyVim/starter ~/.config/nvim
 curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fisher.fish | source && fisher install jorgebucaran/fisher
 fisher install PatrickF1/fzf.fish
 
-## zsh 
+## zsh
 
 echo "安装工具链"
 sudo dnf install -y \
-	gcc arm-none-eabi-gcc \
-	gdb arm-none-eabi-gdb \
-	java-21-openjdk \
-	python3 python3-pip \
+  gcc arm-none-eabi-gcc \
+  gdb arm-none-eabi-gdb \
+  java-21-openjdk \
+  python3 python3-pip
 
 echo "安装最小 GNOME 核心组件..."
 sudo dnf install -y \
@@ -59,7 +59,9 @@ sudo dnf install -y \
   gvfs \
   xdg-user-dirs \
   gsettings-desktop-schemas \
-	gnome-browser-connector \
+  gnome-browser-connector
+
+sudo systemctl set-default graphical.target
 
 echo "安装必要的 GNOME 桌面应用"
 sudo dnf install -y \
@@ -67,7 +69,7 @@ sudo dnf install -y \
   nautilus \
   gnome-control-center \
   gnome-tweaks \
-	gnome-extensions-app \
+  gnome-extensions-app
 
 ## remove gnome help
 sudo dnf remove gnome-tour
@@ -75,22 +77,22 @@ sudo dnf remove gnome-tour
 echo "安装常用的 GNOME 扩展"
 pip install gnome-extensions-cli
 gnome-extensions-cli install \
-	appindicatorsupport@rgcjonas.gmail.com \
-	autohide-battery@sitnik.ru \
-	blur-my-shell@aunetx \
-	caffeine@patapon.info \
-	clipboard-indicator@tudmotu.com \
-	compiz-alike-magic-lamp-effect@hermes83.github.com \
-	compiz-windows-effect@hermes83.github.com \
-	drive-menu@gnome-shell-extensions.gcampax.github.com \
-	gnome-fuzzy-app-search@gnome-shell-extensions.Czarlie.gitlab.com \
-	system-monitor@gnome-shell-extensions.gcampax.github.com \
-	user-theme@gnome-shell-extensions.gcampax.github.com \
+  appindicatorsupport@rgcjonas.gmail.com \
+  autohide-battery@sitnik.ru \
+  blur-my-shell@aunetx \
+  caffeine@patapon.info \
+  clipboard-indicator@tudmotu.com \
+  compiz-alike-magic-lamp-effect@hermes83.github.com \
+  compiz-windows-effect@hermes83.github.com \
+  drive-menu@gnome-shell-extensions.gcampax.github.com \
+  gnome-fuzzy-app-search@gnome-shell-extensions.Czarlie.gitlab.com \
+  system-monitor@gnome-shell-extensions.gcampax.github.com \
+  user-theme@gnome-shell-extensions.gcampax.github.com
 
 echo "安装 appimage 环境"
 sudo dnf install -y \
-	fuse \
-	fuse-devel \
+  fuse \
+  fuse-devel
 
 ## install appimage launcher
 wget -P ~/Downloads/ https://github.com/TheAssassin/AppImageLauncher/releases/download/v3.0.0-alpha-4/appimagelauncher_3.0.0-alpha-4-gha253.36951ec_x86_64.rpm
@@ -111,12 +113,11 @@ sudo dnf install ibus-rime -y
 echo "安装其他桌面应用"
 ## dnf
 sudo dnf install -y \
-	firefox \
-	code \
-	bottles \
-	steam \
+  firefox \
+  code \
+  bottles \
+  steam
 
 sudo ~/.software/WhiteSur-gtk-theme.git/tweaks.sh --firefox flat
 
 ## appimage
-
