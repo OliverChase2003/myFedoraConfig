@@ -1,3 +1,6 @@
+echo "添加 copr"
+sudo dnf copr enable lihaohong/yazi -y
+
 echo "安装命令行工具"
 sudo dnf install -y \
   fish \
@@ -15,7 +18,3 @@ sudo dnf install -y \
   gdb arm-none-eabi-gdb \
   java-openjdk-21
 
-echo "安装 appimage 环境"
-sudo dnf install -y \
-  fuse \
-  fuse-devel
