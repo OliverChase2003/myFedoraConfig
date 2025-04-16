@@ -50,5 +50,3 @@ sudo dnf install -y \
 ## remove gnome help
 sudo dnf remove  -y \
   gnome-tour
-
-sudo ~/.software/WhiteSur-gtk-theme.git/tweaks.sh --firefox flat
