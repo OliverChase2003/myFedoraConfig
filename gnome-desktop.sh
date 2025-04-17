@@ -1,4 +1,4 @@
-sudo dnf install @GNOME --exclude=\
+sudo dnf install @gnome-desktop --exclude=\
 baobab,\
 evince,\
 evince-djvu,\
@@ -21,5 +21,6 @@ gnome-boxes,\
 gnome-connections,\
 gnome-initial-setup,\
 gnome-software,\
-gnome-text-editor
+gnome-text-editor,\
+xdg-desktop-portal-*
 
