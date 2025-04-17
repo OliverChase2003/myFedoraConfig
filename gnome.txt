@@ -1,311 +1,88 @@
-Package                                      Arch   Version                      Repository                  Size
-Installing group/module packages:
- ModemManager                                x86_64 1.22.0-4.fc41                fedora                   4.4 MiB
- NetworkManager-adsl                         x86_64 1:1.50.3-1.fc41              updates                 40.0 KiB
- NetworkManager-openconnect-gnome            x86_64 1.2.10-6.fc41                fedora                 155.5 KiB
- NetworkManager-openvpn-gnome                x86_64 1:1.12.0-2.fc41              fedora                 363.5 KiB
- NetworkManager-ppp                          x86_64 1:1.50.3-1.fc41              updates                 71.8 KiB
- NetworkManager-pptp-gnome                   x86_64 1:1.2.12-7.fc41              fedora                 156.4 KiB
- NetworkManager-ssh-gnome                    x86_64 1.3.1-1.fc41                 updates                173.4 KiB
- NetworkManager-vpnc-gnome                   x86_64 1:1.2.8-8.fc41               fedora                 136.0 KiB
- NetworkManager-wwan                         x86_64 1:1.50.3-1.fc41              updates                145.2 KiB
- PackageKit-command-not-found                x86_64 1.2.8-8.fc41                 updates                 35.2 KiB
- PackageKit-gtk3-module                      x86_64 1.2.8-8.fc41                 updates                 23.7 KiB
- baobab                                      x86_64 47.0-1.fc41                  updates                  1.7 MiB
- evince                                      x86_64 46.3.1-2.fc41                fedora                  10.0 MiB
- evince-djvu                                 x86_64 46.3.1-2.fc41                fedora                  62.7 KiB
- gnome-boxes                                 x86_64 47.0-1.fc41                  fedora                   5.9 MiB
- gnome-calculator                            x86_64 47.2-1.fc41                  updates                  6.8 MiB
- gnome-calendar                              x86_64 47~rc-1.fc41                 fedora                   2.3 MiB
- gnome-characters                            x86_64 47~alpha-2.fc41              fedora                   2.5 MiB
- gnome-classic-session                       noarch 47.4-2.fc41                  updates                 16.8 KiB
- gnome-clocks                                x86_64 47.0-1.fc41                  fedora                   1.7 MiB
- gnome-connections                           x86_64 47.2.1-1.fc41                updates                  1.1 MiB
- gnome-contacts                              x86_64 47.1.1-1.fc41                updates                  2.2 MiB
- gnome-disk-utility                          x86_64 46.1-1.fc41                  fedora                   6.7 MiB
- gnome-epub-thumbnailer                      x86_64 1.8-1.fc41                   fedora                  66.5 KiB
- gnome-font-viewer                           x86_64 47.0-1.fc41                  fedora                   1.2 MiB
- gnome-initial-setup                         x86_64 47.5-1.fc41                  updates                  1.8 MiB
- gnome-logs                                  x86_64 45.0-4.fc41                  fedora                   1.0 MiB
- gnome-maps                                  x86_64 47.6-1.fc41                  updates                  5.5 MiB
- gnome-software                              x86_64 47.5-1.fc41                  updates                 12.2 MiB
- gnome-system-monitor                        x86_64 47.1-1.fc41                  updates                  5.0 MiB
- gnome-text-editor                           x86_64 47.4-1.fc41                  updates                  2.1 MiB
- gnome-user-docs                             noarch 47.6-1.fc41                  updates                 57.7 MiB
- gnome-user-share                            x86_64 47.2-1.fc41                  updates                267.6 KiB
- gnome-weather                               noarch 47.0-1.fc41                  fedora                 761.3 KiB
- gvfs-afc                                    x86_64 1.56.1-1.fc41                updates                162.1 KiB
- gvfs-afp                                    x86_64 1.56.1-1.fc41                updates                200.2 KiB
- gvfs-archive                                x86_64 1.56.1-1.fc41                updates                 44.2 KiB
- gvfs-fuse                                   x86_64 1.56.1-1.fc41                updates                 54.0 KiB
- gvfs-gphoto2                                x86_64 1.56.1-1.fc41                updates                170.3 KiB
- gvfs-mtp                                    x86_64 1.56.1-1.fc41                updates                174.2 KiB
- gvfs-smb                                    x86_64 1.56.1-1.fc41                updates                104.7 KiB
- libsane-hpaio                               x86_64 3.24.4-4.fc41                updates                185.5 KiB
- loupe                                       x86_64 47.4-1.fc41                  updates                  7.8 MiB
- sane-backends-drivers-scanners              x86_64 1.3.1-1.fc41                 fedora                  11.9 MiB
- simple-scan                                 x86_64 46.0-2.fc41                  fedora                   5.4 MiB
- snapshot                                    x86_64 47.1-1.fc41                  updates                  4.4 MiB
- sushi                                       x86_64 46.0-2.fc41                  fedora                 416.6 KiB
- systemd-oomd-defaults                       noarch 256.12-1.fc41                updates                187.0   B
- totem                                       x86_64 1:43.1-1.fc41                updates                  6.0 MiB
- yelp                                        x86_64 2:42.2-6.fc41                fedora                   2.2 MiB
-Installing dependencies:
- NetworkManager-pptp                         x86_64 1:1.2.12-7.fc41              fedora                 512.3 KiB
- NetworkManager-ssh                          x86_64 1.3.1-1.fc41                 updates                230.7 KiB
- NetworkManager-ssh-selinux                  x86_64 1.3.1-1.fc41                 updates                 18.5 KiB
- PackageKit                                  x86_64 1.2.8-8.fc41                 updates                  2.9 MiB
- PackageKit-glib                             x86_64 1.2.8-8.fc41                 updates                520.3 KiB
- SDL2_image                                  x86_64 2.8.8-1.fc41                 updates                217.9 KiB
- adobe-mappings-cmap                         noarch 20231115-1.fc41              updates                 15.2 MiB
- adobe-mappings-cmap-deprecated              noarch 20231115-1.fc41              updates                582.1 KiB
- adobe-mappings-pdf                          noarch 20190401-8.fc41              fedora                   4.4 MiB
- appstream-data                              noarch 41-11.fc41                   updates                 15.2 MiB
- boost-iostreams                             x86_64 1.83.0-8.fc41                fedora                  94.8 KiB
- cairomm1.16                                 x86_64 1.18.0-7.fc41                updates                223.1 KiB
- chkconfig                                   x86_64 1.31-1.fc41                  updates                754.3 KiB
- device-mapper-event                         x86_64 1.02.199-4.fc41              fedora                  50.8 KiB
- device-mapper-event-libs                    x86_64 1.02.199-4.fc41              fedora                  57.7 KiB
- device-mapper-multipath-libs                x86_64 0.9.9-3.fc41                 fedora                 951.9 KiB
- device-mapper-persistent-data               x86_64 1.0.12-3.fc41                fedora                   2.7 MiB
- djvulibre-libs                              x86_64 3.5.28-10.fc41               fedora                   1.8 MiB
- dleyna                                      x86_64 0.8.3-5.fc41                 fedora                  71.0 KiB
- dleyna-connector-dbus                       x86_64 0.8.3-5.fc41                 fedora                  16.2 KiB
- dleyna-server                               x86_64 0.8.3-5.fc41                 fedora                 211.2 KiB
- dnsmasq                                     x86_64 2.90-4.fc41                  updates                766.8 KiB
- editorconfig-libs                           x86_64 0.12.9-2.fc41                fedora                  38.4 KiB
- epiphany-runtime                            x86_64 1:47.4-1.fc41                updates                  2.4 MiB
- evince-libs                                 x86_64 46.3.1-2.fc41                fedora                   1.2 MiB
- evince-previewer                            x86_64 46.3.1-2.fc41                fedora                  73.2 KiB
- evince-thumbnailer                          x86_64 46.3.1-2.fc41                fedora                  20.9 KiB
- flatpak                                     x86_64 1.16.0-1.fc41                updates                  6.3 MiB
- flatpak-selinux                             noarch 1.16.0-1.fc41                updates                 12.7 KiB
- flatpak-session-helper                      x86_64 1.16.0-1.fc41                updates                101.3 KiB
- folks                                       x86_64 1:0.15.9-2.fc41              fedora                   2.6 MiB
- fuse                                        x86_64 2.9.9-22.fc41                fedora                 219.0 KiB
- fuse-libs                                   x86_64 2.9.9-22.fc41                fedora                 305.3 KiB
- gd                                          x86_64 2.3.3-17.fc41                fedora                 403.7 KiB
- genisoimage                                 x86_64 1.1.11-56.fc41               fedora                   1.1 MiB
- glibmm2.68                                  x86_64 2.82.0-1.fc41                fedora                   3.2 MiB
- glusterfs                                   x86_64 11.1-6.fc41                  fedora                   2.5 MiB
- glusterfs-cli                               x86_64 11.1-6.fc41                  fedora                 459.3 KiB
- glusterfs-client-xlators                    x86_64 11.1-6.fc41                  fedora                   3.2 MiB
- glusterfs-fuse                              x86_64 11.1-6.fc41                  fedora                 524.4 KiB
- glycin-loaders                              x86_64 1.1.6-1.fc41                 updates                 11.2 MiB
- gnome-app-list                              noarch 2.0-1.fc41                   updates                 71.5 KiB
- gnome-menus                                 x86_64 3.36.0-12.fc41               fedora                 623.8 KiB
- gnome-shell-extension-apps-menu             noarch 47.4-2.fc41                  updates                 22.2 KiB
- gnome-shell-extension-common                noarch 47.4-2.fc41                  updates                595.6 KiB
- gnome-shell-extension-launch-new-instance   noarch 47.4-2.fc41                  updates                  1.4 KiB
- gnome-shell-extension-places-menu           noarch 47.4-2.fc41                  updates                 20.8 KiB
- gnome-shell-extension-window-list           noarch 47.4-2.fc41                  updates                 63.0 KiB
- gnutls-utils                                x86_64 3.8.9-2.fc41                 updates                  1.3 MiB
- gom                                         x86_64 0.5.3-1.fc41                 fedora                 185.5 KiB
- google-droid-sans-fonts                     noarch 20200215-21.fc41             fedora                   6.3 MiB
- gperftools-libs                             x86_64 2.15-4.fc41                  fedora                   1.4 MiB
- grilo                                       x86_64 0.3.16-6.fc41                fedora                 807.2 KiB
- grilo-plugins                               x86_64 0.3.16-7.fc41                updates                  2.4 MiB
- gspell                                      x86_64 1.14.0-1.fc41                fedora                 345.0 KiB
- gstreamer1-plugin-gtk4                      x86_64 0.13.4-1.fc41                updates                788.1 KiB
- gstreamer1-plugins-good-gtk                 x86_64 1.24.11-1.fc41               updates                 66.4 KiB
- gstreamer1-plugins-ugly-free                x86_64 1.24.11-1.fc41               updates                688.3 KiB
- gtk-vnc2                                    x86_64 1.5.0-2.fc41                 updates                232.1 KiB
- gtkmm4.0                                    x86_64 4.16.0-1.fc41                fedora                   5.4 MiB
- gtksourceview4                              x86_64 4.8.4-7.fc41                 fedora                   4.5 MiB
- gtksourceview5                              x86_64 5.14.2-1.fc41                updates                  5.0 MiB
- gvnc                                        x86_64 1.5.0-2.fc41                 updates                242.9 KiB
- gvncpulse                                   x86_64 1.5.0-2.fc41                 updates                 50.0 KiB
- hplip-common                                x86_64 3.24.4-4.fc41                updates                  1.4 MiB
- hplip-libs                                  x86_64 3.24.4-4.fc41                updates                445.7 KiB
- initscripts                                 x86_64 10.26-1.fc41                 fedora                   1.1 MiB
- initscripts-rename-device                   x86_64 10.26-1.fc41                 fedora                  19.8 KiB
- iproute-tc                                  x86_64 6.10.0-1.fc41                fedora                 894.7 KiB
- iscsi-initiator-utils                       x86_64 6.2.1.10-0.gitd0f04ae.fc41.1 fedora                   1.4 MiB
- iscsi-initiator-utils-iscsiuio              x86_64 6.2.1.10-0.gitd0f04ae.fc41.1 fedora                 163.7 KiB
- isns-utils-libs                             x86_64 0.101-10.fc41                fedora                 500.0 KiB
- jbig2dec-libs                               x86_64 0.20-5.fc41                  fedora                 169.0 KiB
- libXpm                                      x86_64 3.5.17-4.fc41                fedora                 148.4 KiB
- libXt                                       x86_64 1.3.1-1.fc41                 updates                429.9 KiB
- liba52                                      x86_64 0.7.4-49.fc41                fedora                  86.0 KiB
- libblkio                                    x86_64 1.5.0-2.fc41                 fedora                 664.2 KiB
- libcacard                                   x86_64 3:2.8.1-9.fc41               fedora                 119.3 KiB
- libde265                                    x86_64 1.0.15-4.fc41                rpmfusion-free         567.2 KiB
- libdmapsharing4                             x86_64 3.9.13-4.fc41                fedora                 453.5 KiB
- libgfapi0                                   x86_64 11.1-6.fc41                  fedora                 224.0 KiB
- libgfrpc0                                   x86_64 11.1-6.fc41                  fedora                 221.3 KiB
- libgfxdr0                                   x86_64 11.1-6.fc41                  fedora                  52.0 KiB
- libglusterfs0                               x86_64 11.1-6.fc41                  fedora                 877.4 KiB
- libgphoto2                                  x86_64 2.5.31-2.fc41                fedora                   5.8 MiB
- libgs                                       x86_64 10.03.1-5.fc41               updates                 23.3 MiB
- libhandy                                    x86_64 1.8.3-3.fc41                 fedora                   1.4 MiB
- libheif                                     x86_64 1.19.7-1.fc41                updates                  1.3 MiB
- libieee1284                                 x86_64 0.2.11-44.fc41               fedora                  90.1 KiB
- libijs                                      x86_64 0.35-23.fc41                 fedora                  61.6 KiB
- libimagequant                               x86_64 4.0.3-5.fc41                 fedora                 666.7 KiB
- libiscsi                                    x86_64 1.20.0-3.fc41                fedora                 227.9 KiB
- libmbim-utils                               x86_64 1.30.0-4.fc41                fedora                 304.5 KiB
- libmpeg2                                    x86_64 0.5.1-30.fc41                fedora                 179.0 KiB
- libmtp                                      x86_64 1.1.19-8.fc41                fedora                 501.7 KiB
- libnbd                                      x86_64 1.22.1-1.fc41                updates                453.8 KiB
- libnfs                                      x86_64 5.0.3-2.fc41                 fedora                 467.7 KiB
- liboauth                                    x86_64 1.0.3-24.fc41                fedora                  48.4 KiB
- libopenjph                                  x86_64 0.21.2-1.fc41                updates                456.9 KiB
- libpaper                                    x86_64 1:2.1.1-7.fc41               fedora                  48.9 KiB
- libpeas1                                    x86_64 1.36.0-7.fc41                fedora                 371.9 KiB
- libpeas1-gtk                                x86_64 1.36.0-7.fc41                fedora                  62.9 KiB
- libpeas1-loader-python3                     x86_64 1.36.0-7.fc41                fedora                  31.8 KiB
- libphodav                                   x86_64 3.0-9.fc41                   fedora                 144.9 KiB
- libportal-gtk3                              x86_64 0.9.1-1.fc41                 updates                 32.0 KiB
- libqmi-utils                                x86_64 1.34.0-6.fc41                fedora                 832.2 KiB
- librados2                                   x86_64 2:19.2.1-2.fc41              updates                 17.1 MiB
- librbd1                                     x86_64 2:19.2.1-2.fc41              updates                 15.9 MiB
- libsane-airscan                             x86_64 0.99.33-1.fc41               updates                287.6 KiB
- libshumate                                  x86_64 1.3.2-1.fc41                 updates                582.2 KiB
- libsigc++30                                 x86_64 3.6.0-4.fc41                 fedora                  89.4 KiB
- libspectre                                  x86_64 0.2.12-7.fc41                fedora                  85.9 KiB
- libspelling                                 x86_64 0.4.5-1.fc41                 updates                242.5 KiB
- libtpms                                     x86_64 0.9.6-9.fc41                 fedora                 986.2 KiB
- libusal                                     x86_64 1.1.11-56.fc41               fedora                 456.5 KiB
- libvirt-client                              x86_64 10.6.0-7.fc41                updates                973.1 KiB
- libvirt-daemon-common                       x86_64 10.6.0-7.fc41                updates                314.1 KiB
- libvirt-daemon-config-network               x86_64 10.6.0-7.fc41                updates                470.0   B
- libvirt-daemon-driver-interface             x86_64 10.6.0-7.fc41                updates                754.6 KiB
- libvirt-daemon-driver-network               x86_64 10.6.0-7.fc41                updates                892.6 KiB
- libvirt-daemon-driver-nodedev               x86_64 10.6.0-7.fc41                updates                823.2 KiB
- libvirt-daemon-driver-nwfilter              x86_64 10.6.0-7.fc41                updates                844.3 KiB
- libvirt-daemon-driver-qemu                  x86_64 10.6.0-7.fc41                updates                  2.8 MiB
- libvirt-daemon-driver-secret                x86_64 10.6.0-7.fc41                updates                750.3 KiB
- libvirt-daemon-driver-storage               x86_64 10.6.0-7.fc41                updates                  0.0   B
- libvirt-daemon-driver-storage-core          x86_64 10.6.0-7.fc41                updates                923.7 KiB
- libvirt-daemon-driver-storage-disk          x86_64 10.6.0-7.fc41                updates                 31.9 KiB
- libvirt-daemon-driver-storage-gluster       x86_64 10.6.0-7.fc41                updates                 43.4 KiB
- libvirt-daemon-driver-storage-iscsi         x86_64 10.6.0-7.fc41                updates                 23.8 KiB
- libvirt-daemon-driver-storage-iscsi-direct  x86_64 10.6.0-7.fc41                updates                 31.9 KiB
- libvirt-daemon-driver-storage-logical       x86_64 10.6.0-7.fc41                updates                 32.0 KiB
- libvirt-daemon-driver-storage-mpath         x86_64 10.6.0-7.fc41                updates                 19.7 KiB
- libvirt-daemon-driver-storage-rbd           x86_64 10.6.0-7.fc41                updates                 44.1 KiB
- libvirt-daemon-driver-storage-scsi          x86_64 10.6.0-7.fc41                updates                 23.8 KiB
- libvirt-daemon-driver-storage-zfs           x86_64 10.6.0-7.fc41                updates                 23.8 KiB
- libvirt-daemon-kvm                          x86_64 10.6.0-7.fc41                updates                  0.0   B
- libvirt-daemon-lock                         x86_64 10.6.0-7.fc41                updates                103.8 KiB
- libvirt-daemon-log                          x86_64 10.6.0-7.fc41                updates                110.5 KiB
- libvirt-daemon-plugin-lockd                 x86_64 10.6.0-7.fc41                updates                 31.8 KiB
- libvirt-daemon-proxy                        x86_64 10.6.0-7.fc41                updates                724.3 KiB
- libvirt-gconfig                             x86_64 5.0.0-4.fc41                 fedora                 390.5 KiB
- libvirt-glib                                x86_64 5.0.0-4.fc41                 fedora                 136.7 KiB
- libvirt-gobject                             x86_64 5.0.0-4.fc41                 fedora                 227.1 KiB
- libvirt-libs                                x86_64 10.6.0-7.fc41                updates                 26.6 MiB
- libvirt-ssh-proxy                           x86_64 10.6.0-7.fc41                updates                 20.0 KiB
- libwsman1                                   x86_64 2.7.2-11.fc41                fedora                 354.4 KiB
- lockdev                                     x86_64 1.0.4-0.50.20111007git.fc41  fedora                  74.7 KiB
- lvm2                                        x86_64 2.03.25-4.fc41               fedora                   3.6 MiB
- lvm2-libs                                   x86_64 2.03.25-4.fc41               fedora                   2.5 MiB
- lzop                                        x86_64 1.04-15.fc41                 fedora                 102.7 KiB
- mdevctl                                     x86_64 1.4.0-1.fc41                 updates                  2.5 MiB
- mod_dnssd                                   x86_64 0.6-32.fc41                  fedora                  57.6 KiB
- nbdkit-basic-filters                        x86_64 1.40.5-2.fc41                updates                977.6 KiB
- nbdkit-basic-plugins                        x86_64 1.40.5-2.fc41                updates                544.9 KiB
- nbdkit-selinux                              noarch 1.40.5-2.fc41                updates                 16.5 KiB
- nbdkit-server                               x86_64 1.40.5-2.fc41                updates                235.9 KiB
- net-snmp-libs                               x86_64 1:5.9.4-8.fc41               fedora                   3.1 MiB
- numad                                       x86_64 0.5-45.20150602git.fc41      fedora                  60.0 KiB
- pangomm2.48                                 x86_64 2.54.0-2.fc41                fedora                 312.0 KiB
- pptp                                        x86_64 1.10.0-21.fc41               fedora                 148.5 KiB
- qemu-audio-alsa                             x86_64 2:9.1.3-2.fc41               updates                 32.6 KiB
- qemu-audio-dbus                             x86_64 2:9.1.3-2.fc41               updates                272.1 KiB
- qemu-audio-jack                             x86_64 2:9.1.3-2.fc41               updates                 23.9 KiB
- qemu-audio-oss                              x86_64 2:9.1.3-2.fc41               updates                 23.8 KiB
- qemu-audio-pa                               x86_64 2:9.1.3-2.fc41               updates                 31.9 KiB
- qemu-audio-pipewire                         x86_64 2:9.1.3-2.fc41               updates                 44.7 KiB
- qemu-audio-sdl                              x86_64 2:9.1.3-2.fc41               updates                 23.8 KiB
- qemu-audio-spice                            x86_64 2:9.1.3-2.fc41               updates                 19.8 KiB
- qemu-block-blkio                            x86_64 2:9.1.3-2.fc41               updates                 36.2 KiB
- qemu-block-curl                             x86_64 2:9.1.3-2.fc41               updates                 36.2 KiB
- qemu-block-dmg                              x86_64 2:9.1.3-2.fc41               updates                 15.3 KiB
- qemu-block-gluster                          x86_64 2:9.1.3-2.fc41               updates                 35.5 KiB
- qemu-block-iscsi                            x86_64 2:9.1.3-2.fc41               updates                 54.6 KiB
- qemu-block-nfs                              x86_64 2:9.1.3-2.fc41               updates                 33.0 KiB
- qemu-block-rbd                              x86_64 2:9.1.3-2.fc41               updates                 45.0 KiB
- qemu-block-ssh                              x86_64 2:9.1.3-2.fc41               updates                 42.6 KiB
- qemu-char-baum                              x86_64 2:9.1.3-2.fc41               updates                 23.7 KiB
- qemu-char-spice                             x86_64 2:9.1.3-2.fc41               updates                 24.5 KiB
- qemu-device-display-qxl                     x86_64 2:9.1.3-2.fc41               updates                 88.7 KiB
- qemu-device-display-vhost-user-gpu          x86_64 2:9.1.3-2.fc41               updates                731.8 KiB
- qemu-device-display-virtio-gpu-ccw          x86_64 2:9.1.3-2.fc41               updates                 15.5 KiB
- qemu-device-display-virtio-gpu-gl           x86_64 2:9.1.3-2.fc41               updates                 38.0 KiB
- qemu-device-display-virtio-gpu-pci          x86_64 2:9.1.3-2.fc41               updates                 15.6 KiB
- qemu-device-display-virtio-gpu-pci-gl       x86_64 2:9.1.3-2.fc41               updates                 15.2 KiB
- qemu-device-display-virtio-gpu-pci-rutabaga x86_64 2:9.1.3-2.fc41               updates                 15.3 KiB
- qemu-device-display-virtio-gpu-rutabaga     x86_64 2:9.1.3-2.fc41               updates                 38.4 KiB
- qemu-device-display-virtio-vga-gl           x86_64 2:9.1.3-2.fc41               updates                 15.4 KiB
- qemu-device-display-virtio-vga-rutabaga     x86_64 2:9.1.3-2.fc41               updates                 15.4 KiB
- qemu-device-usb-host                        x86_64 2:9.1.3-2.fc41               updates                 53.0 KiB
- qemu-device-usb-redirect                    x86_64 2:9.1.3-2.fc41               updates                 72.9 KiB
- qemu-device-usb-smartcard                   x86_64 2:9.1.3-2.fc41               updates                 36.7 KiB
- qemu-img                                    x86_64 2:9.1.3-2.fc41               updates                 22.9 MiB
- qemu-kvm                                    x86_64 2:9.1.3-2.fc41               updates                  0.0   B
- qemu-pr-helper                              x86_64 2:9.1.3-2.fc41               updates                959.0 KiB
- qemu-system-x86                             x86_64 2:9.1.3-2.fc41               updates                  0.0   B
- qemu-ui-curses                              x86_64 2:9.1.3-2.fc41               updates                 43.8 KiB
- qemu-ui-egl-headless                        x86_64 2:9.1.3-2.fc41               updates                 19.6 KiB
- qemu-ui-gtk                                 x86_64 2:9.1.3-2.fc41               updates                 82.5 KiB
- qemu-ui-opengl                              x86_64 2:9.1.3-2.fc41               updates                 36.3 KiB
- qemu-ui-sdl                                 x86_64 2:9.1.3-2.fc41               updates                 44.8 KiB
- qemu-ui-spice-app                           x86_64 2:9.1.3-2.fc41               updates                 19.6 KiB
- qemu-ui-spice-core                          x86_64 2:9.1.3-2.fc41               updates                 63.9 KiB
- redhat-menus                                noarch 12.0.2-28.fc41               fedora                 672.4 KiB
- rutabaga-gfx-ffi                            x86_64 0.1.3-2.fc41                 fedora                 582.2 KiB
- sane-airscan                                x86_64 0.99.33-1.fc41               updates                174.7 KiB
- sane-backends                               x86_64 1.3.1-1.fc41                 fedora                   3.1 MiB
- sane-backends-libs                          x86_64 1.3.1-1.fc41                 fedora                  96.2 KiB
- scrub                                       x86_64 2.6.1-9.fc41                 fedora                 126.4 KiB
- spice-glib                                  x86_64 0.42-5.fc41                  fedora                   1.2 MiB
- spice-gtk3                                  x86_64 0.42-5.fc41                  fedora                 286.1 KiB
- spice-server                                x86_64 0.15.1-6.fc41                fedora                   1.1 MiB
- sshpass                                     x86_64 1.09-8.fc41                  fedora                  46.7 KiB
- swtpm                                       x86_64 0.9.0-7.fc41                 updates                 54.2 KiB
- swtpm-libs                                  x86_64 0.9.0-7.fc41                 updates                103.0 KiB
- swtpm-selinux                               noarch 0.9.0-7.fc41                 updates                252.0 KiB
- swtpm-tools                                 x86_64 0.9.0-7.fc41                 updates                268.9 KiB
- texlive-lib                                 x86_64 11:20230311-85.fc41          fedora                   1.1 MiB
- thrift                                      x86_64 0.20.0-3.fc41                fedora                   4.8 MiB
- totem-video-thumbnailer                     x86_64 1:43.1-1.fc41                updates                 65.8 KiB
- urw-base35-bookman-fonts                    noarch 20200910-23.fc41             fedora                   1.4 MiB
- urw-base35-c059-fonts                       noarch 20200910-23.fc41             fedora                   1.4 MiB
- urw-base35-d050000l-fonts                   noarch 20200910-23.fc41             fedora                  84.3 KiB
- urw-base35-fonts                            noarch 20200910-23.fc41             fedora                   5.3 KiB
- urw-base35-fonts-common                     noarch 20200910-23.fc41             fedora                  37.4 KiB
- urw-base35-gothic-fonts                     noarch 20200910-23.fc41             fedora                   1.2 MiB
- urw-base35-nimbus-mono-ps-fonts             noarch 20200910-23.fc41             fedora                   1.0 MiB
- urw-base35-nimbus-roman-fonts               noarch 20200910-23.fc41             fedora                   1.4 MiB
- urw-base35-nimbus-sans-fonts                noarch 20200910-23.fc41             fedora                   2.4 MiB
- urw-base35-p052-fonts                       noarch 20200910-23.fc41             fedora                   1.5 MiB
- urw-base35-standard-symbols-ps-fonts        noarch 20200910-23.fc41             fedora                  64.9 KiB
- urw-base35-z003-fonts                       noarch 20200910-23.fc41             fedora                 390.8 KiB
- usbredir                                    x86_64 0.15.0-1.fc41                updates                114.3 KiB
- virglrenderer                               x86_64 1.0.1-3.fc41                 fedora                   1.1 MiB
- virtiofsd                                   x86_64 1.13.0-1.fc41                updates                  2.5 MiB
- x265-libs                                   x86_64 3.6-3.fc41                   rpmfusion-free          16.4 MiB
- yelp-libs                                   x86_64 2:42.2-6.fc41                fedora                 310.9 KiB
- yelp-xsl                                    noarch 42.1-5.fc41                  fedora                   1.4 MiB
- zfs-fuse                                    x86_64 0.7.2.2-31.fc41              fedora                   6.6 MiB
- zlib-ng                                     x86_64 2.2.3-2.fc41                 updates                161.2 KiB
-Installing weak dependencies:
- gnome-software-fedora-langpacks             x86_64 47.5-1.fc41                  updates                 47.6 KiB
- gstreamer1-plugin-openh264                  x86_64 1.24.11-1.fc41               updates                 70.9 KiB
- ipp-usb                                     x86_64 0.9.30-1.fc41                updates                  6.4 MiB
- libheif-freeworld                           x86_64 1.19.7-1.fc41                rpmfusion-free-updates 152.1 KiB
- libvirt-daemon                              x86_64 10.6.0-7.fc41                updates                726.6 KiB
- nbdkit                                      x86_64 1.40.5-2.fc41                updates                  0.0   B
- nbdkit-curl-plugin                          x86_64 1.40.5-2.fc41                updates                 62.1 KiB
- nbdkit-ssh-plugin                           x86_64 1.40.5-2.fc41                updates                 45.6 KiB
- p11-kit-server                              x86_64 0.25.5-3.fc41                fedora                   1.2 MiB
- rpmfusion-free-appstream-data               noarch 41-1.fc41                    rpmfusion-free         322.2 KiB
- rpmfusion-nonfree-appstream-data            noarch 41-1.fc41                    rpmfusion-nonfree      215.1 KiB
- sane-backends-drivers-cameras               x86_64 1.3.1-1.fc41                 fedora                  12.4 MiB
-Installing groups:
- GNOME                                                                                                           
-
-Transaction Summary:
- Installing:       301 packages
+Id                   : gnome-desktop
+Name                 : GNOME
+Description          : GNOME is a highly intuitive and user friendly desktop environment.
+Installed            : yes
+Order                : 
+Langonly             : 
+Uservisible          : no
+Repositories         : @System
+Mandatory packages   : dconf
+                     : gdm
+                     : gnome-boxes
+                     : gnome-connections
+                     : gnome-control-center
+                     : gnome-initial-setup
+                     : gnome-session-wayland-session
+                     : gnome-settings-daemon
+                     : gnome-shell
+                     : gnome-software
+                     : gnome-text-editor
+                     : nautilus
+                     : polkit
+                     : ptyxis
+                     : yelp
+Default packages     : ModemManager
+                     : NetworkManager-adsl
+                     : NetworkManager-openconnect-gnome
+                     : NetworkManager-openvpn-gnome
+                     : NetworkManager-ppp
+                     : NetworkManager-pptp-gnome
+                     : NetworkManager-ssh-gnome
+                     : NetworkManager-vpnc-gnome
+                     : NetworkManager-wwan
+                     : PackageKit-command-not-found
+                     : PackageKit-gtk3-module
+                     : adobe-source-code-pro-fonts
+                     : avahi
+                     : baobab
+                     : evince
+                     : evince-djvu
+                     : fprintd-pam
+                     : glib-networking
+                     : gnome-backgrounds
+                     : gnome-bluetooth
+                     : gnome-browser-connector
+                     : gnome-calculator
+                     : gnome-calendar
+                     : gnome-characters
+                     : gnome-classic-session
+                     : gnome-clocks
+                     : gnome-color-manager
+                     : gnome-contacts
+                     : gnome-disk-utility
+                     : gnome-epub-thumbnailer
+                     : gnome-font-viewer
+                     : gnome-logs
+                     : gnome-maps
+                     : gnome-remote-desktop
+                     : gnome-system-monitor
+                     : gnome-user-docs
+                     : gnome-user-share
+                     : gnome-weather
+                     : gvfs-afc
+                     : gvfs-afp
+                     : gvfs-archive
+                     : gvfs-fuse
+                     : gvfs-goa
+                     : gvfs-gphoto2
+                     : gvfs-mtp
+                     : gvfs-smb
+                     : librsvg2
+                     : libsane-hpaio
+                     : loupe
+                     : mesa-dri-drivers
+                     : mesa-libEGL
+                     : rygel
+                     : sane-backends-drivers-scanners
+                     : simple-scan
+                     : snapshot
+                     : sushi
+                     : systemd-oomd-defaults
+                     : totem
+                     : tracker
+                     : tracker-miners
+                     : xdg-desktop-portal
+                     : xdg-desktop-portal-gnome
+                     : xdg-desktop-portal-gtk
+                     : xdg-user-dirs-gtk
 

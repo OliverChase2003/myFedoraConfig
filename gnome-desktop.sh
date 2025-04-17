@@ -1,6 +1,25 @@
-sudo dnf install @gnome-desktop --exclude=\
-gnome-maps,gnome-software,gnome-calendar,\
-gnome-clocks,gnome-connections,gnome-contacts,\
-gnome-software,gnome-text-editor,gnome-user-docs,\
-gnome-weather,totem,gnome-logs,gnome-calculator,\
-gnome-boxes,flatpak
+sudo dnf install @GNOME --exclude=\
+baobab,\
+evince,\
+evince-djvu,\
+gnome-calculator,\
+gnome-calendar,\
+gnome-characters,\
+gnome-clocks,\
+gnome-color-manager,\
+gnome-contacts,\
+gnome-epub-thumbnailer,\
+gnome-font-viewer,\
+gnome-logs,\
+gnome-maps,\
+gnome-user-docs,\
+gnome-user-share,\
+gnome-weather,\
+loupe,\
+totem,\
+gnome-boxes,\
+gnome-connections,\
+gnome-initial-setup,\
+gnome-software,\
+gnome-text-editor
+
