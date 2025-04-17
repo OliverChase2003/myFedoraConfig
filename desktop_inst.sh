@@ -9,7 +9,9 @@ sudo dnf install -y \
 echo "更新系统..."
 sudo dnf update -y
 
-sudo dnf install @gnome-desktop --exclude=\
+echo "安装 gnome-desktop"
+sudo dnf install -y \
+@gnome-desktop --exclude=\
 baobab,\
 evince,\
 evince-djvu,\
@@ -39,4 +41,9 @@ gnome-software,\
 gnome-text-editor,\
 flatpak-libs
 
+echo "安装音频"
+sudo dnf install -y \
+alsa-sof-firmware
+
 sudo systemctl set-default graphical.target
+sudo reboot
