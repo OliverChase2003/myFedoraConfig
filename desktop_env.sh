@@ -5,6 +5,7 @@ sudo dnf install -y \
 echo "安装常用的 GNOME 扩展"
 pip install gnome-extensions-cli
 gnome-extensions-cli install \
+app-hider@lynith.dev \
 user-theme@gnome-shell-extensions.gcampax.github.com \
 system-monitor@gnome-shell-extensions.gcampax.github.com \
 drive-menu@gnome-shell-extensions.gcampax.github.com \
@@ -14,6 +15,7 @@ compiz-alike-magic-lamp-effect@hermes83.github.com \
 caffeine@patapon.info \
 clipboard-indicator@tudmotu.com \
 gnome-fuzzy-app-search@gnome-shell-extensions.Czarlie.gitlab.com \
+hide-volume-indicator@stephaniebread \
 autohide-battery@sitnik.ru \
 move-date@fthx \
 appindicatorsupport@rgcjonas.gmail.com
