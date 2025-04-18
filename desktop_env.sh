@@ -18,7 +18,6 @@ autohide-battery@sitnik.ru \
 move-date@fthx \
 appindicatorsupport@rgcjonas.gmail.com
 
-
 echo "安装主题"
 git clone https://github.com/vinceliuice/WhiteSur-gtk-theme.git ~/.softwares/WhiteSur-gtk-theme/ --depth 1
 chmod +x ~/.softwares/WhiteSur-gtk-theme/install.sh

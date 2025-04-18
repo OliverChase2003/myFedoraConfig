@@ -39,11 +39,28 @@ gnome-connections,\
 gnome-initial-setup,\
 gnome-software,\
 gnome-text-editor,\
-flatpak-libs
+flatpak-libs,\
+gnome-shell-extension-apps-menu,\
+gnome-shell-extension-launch-new-instance,\
+gnome-shell-extension-places-menu,\
+gnome-shell-extension-window-list \
+firefox
+
+echo "安装系统 emoji"
+sudo dnf install -y \
+	default-fonts-core-emoji \
+	google-noto-color-emoji-fonts \
+	cldr-emoji-annotation \
 
 echo "安装音频"
 sudo dnf install -y \
-alsa-sof-firmware
+	alsa-sof-firmware
+
+echo "安装 WiFi"
+sudo dnf install -y \
+	iwlwifi-dvm-firmware \
+	iwlwifi-mvm-firmware \
+	akmod-wl
 
 sudo systemctl set-default graphical.target
 sudo reboot

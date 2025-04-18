@@ -6,6 +6,6 @@ sudo dnf install ~/Downloads/appimagelauncher_"$version"-gha253.36951ec_"$arch".
 
 echo "安装 appimage 环境"
 sudo dnf install -y \
-  appimagelauncher \
-  fuse \
-  fuse-devel
+    appimagelauncher \
+    fuse \
+    fuse-devel

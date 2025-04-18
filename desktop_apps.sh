@@ -9,7 +9,6 @@ sudo dnf copr enable jstaf/onedriver
 echo "安装其他桌面应用"
 ## dnf
 sudo dnf install -y \
-	onedriver \
-  code \
-  bottles \
-  steam
+    onedriver \
+    code \
+    steam
