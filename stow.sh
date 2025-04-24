@@ -1,5 +1,7 @@
 work_dir=$(pwd)
-cp -r ./stows/ ~/.stows/
+stow_dir="~/.stows"
+cp -r ./stows/ ${stow_dir}
+cd ${stow_dir}
 
 ## fonts
 stow fonts
@@ -12,7 +14,11 @@ stow bash
 rm ~/.config/fish/config.fish
 stow fish
 
+## nvim 
+git clone https://github.com/LazyVim/starter ~/.config/nvim
+
 ## rime
-stow rime
+git clone https://github.com/iDvel/rime-ice.git ~/.config/ibus/rime/ --depth 1
+sudo dnf install -y ibus-rime
 
 cd ${work_dir}

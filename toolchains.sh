@@ -9,8 +9,7 @@ sudo dnf install -y \
   neovim \
   yazi \
   fzf \
-  fd \
-  bat
+  stow
 
 echo "安装工具链"
 sudo dnf install -y \

@@ -1,6 +1,14 @@
 ## if workstation installed
+
+## remove copr
+sudo dnf copr remove phracek/PyCharm
+
+## remove source
+sudo rm /etc/yum.repos.d/google-chrome.repo
+
 ## remove some gnome-apps
 sudo dnf remove -y \
+    *abrt* \
     baobab \
     evince \
     evince-djvu \
@@ -24,19 +32,25 @@ sudo dnf remove -y \
     gnome-user-share \
     gnome-weather \
     loupe \
+    rhythmbox \
     simple-scan \
     snapshot \
     totem \
     yelp
 
 ## remove libreoffice
-sudn dnf remove -y @libreoffice
+sudo dnf remove -y -\
+    @libreoffice \
+    @desktop-accessibility \
+    @container-management
 
 ## remove gnome-shell-extension installed by system
-sudo dnf remove -y $(dnf list --installed | grep gnome-shell-extension- | awk '{print $1}')
+sudo dnf remove -y \
+    $(dnf list --installed | grep gnome-shell-extension- | awk '{print $1}')
 
 ## remove flatpak
-sudo dnf remove -y $(dnf list --installed | grep flatpak | awk '{print $1}')
+sudo dnf remove -y \
+    $(dnf list --installed | grep flatpak | awk '{print $1}')
 
 ## install
 sudo dnf install -y \

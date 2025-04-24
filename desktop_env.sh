@@ -21,11 +21,12 @@ move-date@fthx \
 appindicatorsupport@rgcjonas.gmail.com
 
 echo "安装主题"
-git clone https://github.com/vinceliuice/WhiteSur-gtk-theme.git ~/.softwares/WhiteSur-gtk-theme/ --depth 1
+git clone https://gitcode.com/gh_mirrors/wh/WhiteSur-gtk-theme.git ~/.softwares/WhiteSur-gtk-theme/ --depth 1
 chmod +x ~/.softwares/WhiteSur-gtk-theme/install.sh
-## WhiteSur GTK Theme
-sudo sh ~/.softwares/WhiteSur-gtk-theme/install.sh -c light -N --shell -i fedora -p 60 -b default -h bigger -normal    
+## install theme for desktop
+sudo sh ~/.softwares/WhiteSur-gtk-theme/install.sh -c light -N --shell -i fedora -p 60 -b default -h bigger -normal
 sh ~/.softwares/WhiteSur-gtk-theme/install.sh -l
+## install theme for firefox & gdm
 chmod +x ~/.softwares/WhiteSur-gtk-theme/tweaks.sh
 sudo sh ~/.softwares/WhiteSur-gtk-theme/tweaks.sh --gdm -i fedora -noblur   ## gdm theme
 firefox   ## launch firefox for the first time
@@ -35,5 +36,4 @@ sudo sh ~/.softwares/WhiteSur-gtk-theme/tweaks.sh --firefox flat    ## firefox t
 
 echo "安装输入法"
 mkdir -p ~/.config/ibus/
-git clone https://github.com/iDvel/rime-ice.git ~/.config/ibus/rime/ --depth 1
 sudo dnf install ibus-rime -y
