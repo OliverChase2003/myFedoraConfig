@@ -29,11 +29,4 @@ sh ~/.softwares/WhiteSur-gtk-theme/install.sh -l
 ## install theme for firefox & gdm
 chmod +x ~/.softwares/WhiteSur-gtk-theme/tweaks.sh
 sudo sh ~/.softwares/WhiteSur-gtk-theme/tweaks.sh --gdm -i fedora -noblur   ## gdm theme
-firefox   ## launch firefox for the first time
-sleep 1000  ## wait til firefox init success
-kill $(pidof firefox) ## kill all the firefox processes
 sudo sh ~/.softwares/WhiteSur-gtk-theme/tweaks.sh --firefox flat    ## firefox theme
-
-echo "安装输入法"
-mkdir -p ~/.config/ibus/
-sudo dnf install ibus-rime -y

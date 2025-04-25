@@ -5,7 +5,6 @@ echo "安装命令行工具"
 sudo dnf install -y \
   fish \
   zsh \
-  git \
   neovim \
   yazi \
   fzf \
@@ -17,10 +16,4 @@ sudo dnf install -y \
   gdb arm-none-eabi-gdb \
   java-openjdk-21
 
-echo "配置命令行工具"
-## fish
-
-exit
-## nvim
-git clone https://github.com/LazyVim/starter ~/.config/nvim
 

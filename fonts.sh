@@ -10,3 +10,7 @@ wget -P ~/Downloads/ https://hyperos.mi.com/font-download/MiSans.zip
 unzip ~/Downloads/MiSans.zip -d ~/Downloads/MiSans/
 mv ~/Downloads/MiSans/MiSans/ttf/ ~/.local/share/fonts/MiSans/
 fc-cache -fv
+
+## other fonts
+sudo dnf install -y \
+    google-noto-sans-cjk-fonts

@@ -8,9 +8,13 @@ if ! [[ "$PATH" =~ "$HOME/.local/bin:$HOME/bin:" ]]; then
 fi
 export PATH
 
-# prompt
+## prompt
 set -o vi # set vi mode prompt
 export PS1=" \w \e[33m$\e[0m "
+
+## set default apps
+export EDITOR=nvim
+export VISUAL=nvim
 
 # alias
 alias ll="ls -l"

@@ -1,6 +1,9 @@
-## alias
+## user specified env
+if not string match -q "$HOME/.local/bin:$HOME/bin:" "$PATH"
+    set -gx PATH $HOME/.local/bin $HOME/bin $PATH
+end
 
-## set prompt
+## prompt
 fish_vi_key_bindings
 
 function fish_prompt
@@ -24,18 +27,14 @@ function fish_mode_prompt
     end
 end
 
-## set proxy
-set -gx http_proxy http://127.0.0.1:7897
-set -gx https_proxy http://127.0.0.1:7897
-
 ## greeting
 function fish_greeting
     set_color --bold yellow
     echo "Hello Oliver!"
 end
 
+## set default app
 set -x EDITOR nvim
 set -x VISUAL nvim
 
-## set to english
-##set -x LANG en_US.UTF-8
+## alias
