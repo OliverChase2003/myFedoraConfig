@@ -32,6 +32,7 @@ sudo dnf remove -y \
     gnome-user-share \
     gnome-weather \
     loupe \
+    *libreoffice* \
     rhythmbox \
     simple-scan \
     snapshot \
@@ -39,7 +40,7 @@ sudo dnf remove -y \
     yelp
 
 ## remove libreoffice
-sudo dnf remove -y -\
+sudo dnf remove -y \
     @libreoffice \
     @desktop-accessibility \
     @container-management
@@ -55,4 +56,7 @@ sudo dnf remove -y \
 ## install
 sudo dnf install -y \
     gnome-extensions-app \
-    gnome-tweaks
+    gnome-tweaks \
+
+## add groups for current user
+sudo usermod -aG dialout $USER
